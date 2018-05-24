@@ -1,0 +1,58 @@
+{
+  "name": "Monument",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "subtype": {
+      "type": "string",
+      "required": true
+    },
+    "religious": {
+      "type": "boolean",
+      "required": true
+    },
+    "style": {
+      "type": "string"
+    },
+    "free": {
+      "type": "boolean",
+      "required": true
+    },
+    "opening": {
+      "type": "string"
+    },
+    "closing": {
+      "type": "string"
+    },
+    "visit_duration": {
+      "type": "number"
+    },
+    "notation": {
+      "type": "number"
+    },
+    "site_plus": {
+      "type": "string"
+    },
+    "top10": {
+      "type": "boolean"
+    },
+    "comments": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
