@@ -1,12 +1,12 @@
 # api-monument
 
-REST API made with loopback which allows user to manage a Monument
+REST API made with loopback which allows user to manage monuments
 
-## Rest API on localhost/explorer
+## Rest API on /explorer
 
 ![alt text](https://github.com/maxgfr/api-monument/blob/master/captures/api.png)
 
-## Front on localhost
+## Front on /
 
 ![alt text](https://github.com/maxgfr/api-monument/blob/master/captures/tab.png)
 
