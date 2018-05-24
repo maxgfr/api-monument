@@ -9,6 +9,8 @@ app.use('/express-status', function(req, res, next) {
   res.json({ running: true });
 });
 
+app.set('view engine', 'ejs');
+
 if (require.main === module) {
     app.start = function() {
       // start the web server

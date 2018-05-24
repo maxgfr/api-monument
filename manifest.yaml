@@ -1,0 +1,5 @@
+---
+applications:
+ - name: api-monument
+   random-route: true
+   memory: 256M
