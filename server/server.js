@@ -3,13 +3,15 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 
+var ejs = require('ejs'); //ejs
+
 var app = module.exports = loopback();
 
 app.use('/express-status', function(req, res, next) {
   res.json({ running: true });
 });
 
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); //ejs
 
 if (require.main === module) {
     app.start = function() {

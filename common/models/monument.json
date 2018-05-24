@@ -7,27 +7,22 @@
   },
   "properties": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "type": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "subtype": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "religious": {
-      "type": "boolean",
-      "required": true
+      "type": "string"
     },
     "style": {
       "type": "string"
     },
     "free": {
-      "type": "boolean",
-      "required": true
+      "type": "string"
     },
     "opening": {
       "type": "string"
@@ -36,16 +31,16 @@
       "type": "string"
     },
     "visit_duration": {
-      "type": "number"
+      "type": "string"
     },
     "notation": {
-      "type": "number"
+      "type": "string"
     },
     "site_plus": {
       "type": "string"
     },
     "top10": {
-      "type": "boolean"
+      "type": "string"
     },
     "comments": {
       "type": "string"

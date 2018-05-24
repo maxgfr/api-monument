@@ -8,7 +8,7 @@ module.exports = function(app) {
             else {
                 console.log(monuments);
             }
-            res.render('index', { monuments: monuments });
+            res.render('index', { monuments: monuments});
         });
     });
     app.use(router);
